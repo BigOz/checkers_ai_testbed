@@ -62,8 +62,8 @@ def playGame():
 
     while movesRemaining > 0:
         movesRemaining -= 1
-        # if verbose:
-        #     gamePlay.printBoard(board)
+        if verbose:
+            gamePlay.printBoard(board)
         tempBoard = deepcopy(board)
         if movesRemaining % 2 == 0:
             if gamePlay.isAnyMovePossible(board, 'r'):

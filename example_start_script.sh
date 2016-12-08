@@ -1,7 +1,7 @@
 python3 game_runner.py \
-    --red_sim_time=$time_for_run \
-    --red_max_sim=$sim_for_run \
-    --red_max_turns=150 \
+    --red_sim_time=1 \
+    --red_max_sim=1 \
+    --red_max_turns=1 \
     --red_percent_wrong=0 \
     --white_sim_time=1 \
     --white_max_sim=100000 \
@@ -10,6 +10,7 @@ python3 game_runner.py \
     --filename="example_file.txt" \
     --num_games=10 \
     --num_rounds=150 \
+    -v \
     human_agent \
     monte_carlo_agent
 
